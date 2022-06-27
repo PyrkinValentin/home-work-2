@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>About me</title>
+	
+	<meta name="description" content="Description">
+	<meta charset="utf-8"/>
+	<base href="./"> <!--Базовый URL. Не пригодится в реальном проекте-->
+	<!--meta name="viewport" content="width=device-width, initial-scale=1"--> <!--not adaptive-->
+	
+	<link rel="shortcut icon" href="favicon.ico">
+	
+	<link rel="stylesheet" href="styles/reset.css"/> <!--Reset default styles browser-->
+	<link rel="stylesheet" href="styles/global.css"/> <!--Basic style-->
+	<link rel="stylesheet" href="styles/about_me.css"/> <!--Module style-->
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet"
+				href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Ubuntu:wght@400;700;900&display=swap">
+	
+	<!--Предзагрузка локальных файлов шрифтов. Если непредзагрузить будет мерцание текста, что плохо для CLS-->
+	<link rel="preload" href="assets/fonts/KFOmCnqEu92Fr1Mu72xKOzY.woff2" as="font">
+	<link rel="preload" href="assets/fonts/KFOmCnqEu92Fr1Mu5mxKOzY.woff2" as="font">
+	<link rel="preload" href="assets/fonts/KFOmCnqEu92Fr1Mu7GxKOzY.woff2" as="font">
+	<link rel="preload" href="assets/fonts/KFOmCnqEu92Fr1Mu4mxK.woff2" as="font">
+	<link rel="preload" href="assets/fonts/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2" as="font">
+	<link rel="preload" href="assets/fonts/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2" as="font">
+	<link rel="preload" href="assets/fonts/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2" as="font">
+	<link rel="preload" href="assets/fonts/KFOlCnqEu92Fr1MmWUlfBBc4.woff2" as="font">
+	<link rel="preload" href="assets/fonts/KFOlCnqEu92Fr1MmYUtfCRc4EsA.woff2" as="font">
+	<link rel="preload" href="assets/fonts/KFOlCnqEu92Fr1MmYUtfABc4EsA.woff2" as="font">
+	<link rel="preload" href="assets/fonts/KFOlCnqEu92Fr1MmYUtfChc4EsA.woff2" as="font">
+	<link rel="preload" href="assets/fonts/KFOlCnqEu92Fr1MmYUtfBBc4.woff2" as="font">
+</head>
+
+<body class="layout">
+<header class="header">
+	<a href="index.html">
+		<img class="logo" src="assets/images/logo.png" alt="Logo"/>
+	</a>
+	
+	<div class="header__wrapper">
+		<nav>
+			<ul class="header__nav">
+				<li>
+					<a href="index.html" class="header__link">Home</a>
+				</li>
+				<li>
+					<a href="about-me.html" class="header__link">About me</a>
+				</li>
+				<li>
+					<a href="contacts.html" class="header__link">Contacts</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<div class="header__contacts">
+			<div class="header__social">
+				<a href="https://vk.com/elementtechguru" target="_blank">
+					<img class="header__social__image" src="assets/images/vk.png" alt="vkontakte">
+				</a>
+			</div>
+			
+			<div>
+				<div class="header__title-tel">Call me, please</div>
+				<a href="tel:+375291015178" class="header__tel">+375 29 101 51 78</a>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section class="section">
+	<h1 class="title">About me</h1>
+	<div class="content">
+		Одно из самых важных занятий моих это разработка клиентской части интерфейса.
+		Иногда для того, что бы освежить память пишу тудушки или калькуляторы с разными подходами,
+		читаю документации или вникаю глубже как работает та или иная технология.
+		Очень нравится сайт codewars один из любимых. Общение с друзьями частый феномен на выходных.
+		Гидроцикл одно из любимых занятий летом в жаркую погоду. Люблю активный отдых, общение, развитие...
+	</div>
+</section>
+
+<footer class="footer">
+	<a href="index.html">
+		<img class="logo" src="assets/images/logo.png" alt="Logo"/>
+	</a>
+	
+	<nav>
+		<ul class="footer__nav">
+			<li>
+				<a href="index.html" class="footer__link">Home</a>
+			</li>
+			<li>
+				<a href="about-me.html" class="footer__link">About me</a>
+			</li>
+			<li>
+				<a href="contacts.html" class="footer__link">Contacts</a>
+			</li>
+		</ul>
+	</nav>
+</footer>
+</body>
+</html>

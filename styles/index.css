@@ -1,0 +1,117 @@
+.wrapper {
+    font-size: 1.6rem;
+    font-family: 'Roboto', 'Arial', sans-serif;
+
+    margin-top: 32px;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.sections {
+    display: grid;
+    grid-column-gap: 16px;
+    grid-template-columns: 251px calc(800px - 32px - 251px - 33%) 33%; /* 800px layout. CALC: -32px (grid-column-gap 8px * 2) */
+
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.font-nunito {
+    font-family: 'Nunito', 'Arial', sans-serif;
+    padding: 16px;
+    text-align: center;
+
+    border: 1px solid #000;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.font-nunito__image-html {
+    width: 64px;
+    height: 64px;
+}
+
+.font-nunito__numbered-list {
+    line-height: 3rem;
+}
+
+.font-roboto {
+    padding: 16px;
+    text-align: center;
+
+    border: 1px dashed #000;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.font-roboto__image-css {
+    width: 64px;
+    height: 84px;
+}
+
+.font-roboto__paragraphs {
+    height: 300px;
+    overflow-y: scroll;
+    line-height: 3rem;
+    text-align: justify;
+}
+
+.font-roboto__paragraphs::-webkit-scrollbar {
+    width: 4px; /* ширина для вертикального скролла */
+    height: 8px; /* высота для горизонтального скролла */
+    background-color: #ccc;
+}
+
+.font-roboto__paragraphs::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 8px;
+}
+
+.font-ubuntu {
+    font-family: 'Ubuntu', 'Arial', sans-serif;
+    padding: 16px;
+    text-align: center;
+
+    border: 1px dotted #000;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.font-ubuntu__title {
+    /* opacity: .5; This method has a downside. Text will be fuzzy */
+    color: rgba(0, 0, 0, .5)
+}
+
+.font-ubuntu__image-js {
+    width: 64px;
+    height: 64px;
+}
+
+.font-ubuntu__images {
+    display: grid;
+    grid-column-gap: 16px;
+    grid-template-columns: repeat(3, 32px);
+
+    justify-content: center;
+}
+
+.about-me {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 1.4rem;
+
+    margin: 32px 0;
+}
+
+.about-me__warning {
+    margin-top: 16px;
+}
+
+.about_me__warning-img {
+    width: 32px;
+    height: 32px;
+
+    margin-right: 16px;
+}

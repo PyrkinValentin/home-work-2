@@ -1,0 +1,15 @@
+.section {
+    font-size: 1.6rem;
+    font-family: 'Roboto', 'Arial', sans-serif;
+
+    margin-top: 32px;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.content {
+    margin: 32px 0;
+}
